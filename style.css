@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    background-color: rgb(232, 213, 219);
+
+
+
+}
+
+/* 1st Section */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.menus {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<div class="menu-bar">
+                    <ul class="menus">
+                        <li class="menu"><a href="home">Home</a></li>
+                        <li class="menu"><a href="about">About</a></li>
+                        <li class="menu"><a href="contact us">Contact Us</a></li>
+                        <li class="menu"> <a href="login">Login</a>
+                    </ul>
+                    </li>
+
+
+                </div> */
