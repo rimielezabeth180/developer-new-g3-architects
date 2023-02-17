@@ -127,15 +127,72 @@
 
 
 
+/* 4th Section */
+
+
 .year-section {
     /* margin: auto; */
     margin-left: 1000px;
     width: 60px;
     padding: 10px 60px;
-    background-color: rgb(198, 71, 25);
+    background-color: rgb(224, 91, 42);
     margin-top: -100px;
     color: white;
     position: absolute;
     z-index: 1;
 
 }
+
+
+
+/* 5th Section */
+
+.some-facts {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.some {
+    margin-bottom: 20px;
+}
+
+/* 6th Section */
+
+.sixth-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 80%;
+
+
+}
+
+.award {
+
+    border: 1px solid orangered;
+    padding: 10px;
+    margin: auto;
+    width: 60px;
+    padding: 10px 60px;
+    border-radius: 10px;
+
+
+}
+
+
+/* 7th Section */
+
+
+
+
+
+
+/* 8th Section */
+
+
+
+
+
+
+/* 9th Section */
