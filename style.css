@@ -111,7 +111,9 @@
     display: flex;
 }
 
-
+p {
+    margin-top: 10px;
+}
 
 .boxes {
     margin-top: 50px;
@@ -140,7 +142,6 @@
     color: white;
     position: absolute;
     z-index: 1;
-
 }
 
 
@@ -178,6 +179,10 @@
 
 /* 7th Section */
 
+.our-sponsors {
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 
