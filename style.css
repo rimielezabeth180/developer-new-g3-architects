@@ -1,8 +1,16 @@
+/* Fonts */
+
+
+
 * {
     margin: 0;
 }
 
 /* 1st Section */
+
+.first-section {
+    background-color: rgba(255, 144, 14, 0.1);
+}
 
 .header {
     display: flex;
@@ -22,8 +30,9 @@
 .menu a {
     text-decoration: none;
     padding: 20px;
+    color: black;
+    font-size: 20px;
 }
-
 
 .article {
     font-size: 50px;
@@ -44,8 +53,6 @@
     font-size: 20px;
     border: 0;
     margin-left: 45%;
-    /* text-align: center; */
-
 }
 
 .banner {
@@ -72,8 +79,6 @@
     padding: 10px;
 }
 
-
-
 .second-right {
     margin-top: 160px;
 }
@@ -88,15 +93,12 @@
     text-align: center;
 }
 
-
-
-
 .vl {
     border-left: 4px solid rgb(233, 94, 52);
-    height: 60px;
-    margin-top: 30px;
+    height: 150px;
     margin-right: 20px;
 }
+
 
 
 /* 3rd Section */
@@ -157,6 +159,8 @@ p {
     margin-bottom: 20px;
 }
 
+
+
 /* 6th Section */
 
 .sixth-section {
@@ -177,6 +181,7 @@ p {
 }
 
 
+
 /* 7th Section */
 
 .our-sponsors {
@@ -186,10 +191,7 @@ p {
 
 
 
-
-
 /* 8th Section */
-
 
 .eight-section {
     display: flex;
@@ -201,14 +203,36 @@ p {
 
 
 
-
 /* 9th Section */
 
 .footer {
     margin: auto;
-    background-color: rgb(244, 218, 218);
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
     width: 700px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 30px;
     padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* @media Queries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:667px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
